@@ -78,18 +78,18 @@ samp {
 h1 {
     font-size: 1.5rem !important;
     font-weight: 300 !important;
-    color: #828282 !important;
+    color: #676767 !important;
     letter-spacing: 3px !important;
     text-transform: uppercase !important;
     /*border-bottom: 1px dashed #000000 !important;*/
 }
 
 h2 {
-    font-size: 1rem !important;
-    font-weight: 500 !important;
-    color: #828282 !important;
+    font-size: 1.2rem !important;
+    font-weight: 300 !important;
+    color: #676767 !important;
     letter-spacing: 3px !important;
-    text-transform: none !important;
+    text-transform: uppercase !important;
 }
 
 h3 {
@@ -118,7 +118,7 @@ h6 {
 
 .toolbar_info,
 .list-container {
-    color: #828282;
+    color: #676767;
 }
 /* NOTEBOOK */
 
@@ -132,7 +132,7 @@ div#notebook {
 }
 
 div.input_prompt {
-    color: #C74483;
+    color: gray;
 }
 
 .code_cell div.input_prompt:after,
@@ -151,24 +151,24 @@ div.input_area {
 
 div.output_area pre {
     font-weight: normal;
-    color: #828282;
+    color: black;
 }
 
 div.output_subarea {
     font-weight: normal;
-    color: #828282;
+    color: #676767;
 }
 
 .rendered_html pre,
 .rendered_html code {
-    color: #828282;
+    color: #676767;
 }
 
 .rendered_html table,
 .rendered_html th,
 .rendered_html tr,
 .rendered_html td {
-    border: 1px #828282 solid;
+    border: 1px #676767 solid;
     font-size: 0.75rem;
     font-family: 'Menlo', monospace;
 }
