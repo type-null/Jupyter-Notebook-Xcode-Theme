@@ -204,15 +204,15 @@ div.cell.edit_mode {
 
 div.text_cell_render,
 div.output_html {
-    color: #828282;
+    color: #676767;
 }
 
 span.ansiblack {
-    color: #828282;
+    color: #676767;
 }
 
 span.ansiblue {
-    color: #00A397;
+    color: #33595d;
 }
 
 span.ansigray {
@@ -220,32 +220,36 @@ span.ansigray {
 }
 
 span.ansigreen {
-    color: #688A0A;
+    color: #2c5a32;
 }
 
 span.ansipurple {
-    color: #975DDE;
+    color: #b833a1;
 }
 
 span.ansired {
-    color: #D43132;
+    color: #df1921;
 }
 
 span.ansiyellow {
     color: #D9AA00;
 }
 
-div.output_stderr {
+span.ansicyan {
+    color: #508187;
+}
+
+/*div.output_stderr {
     background-color: #D43132;
 }
 
 div.output_stderr pre {
     color: #e8e8e8;
-}
+}*/
 
 .cm-s-ipython.CodeMirror {
-    background: #F8F8F8;
-    color: #828282;
+    background: #FAFAFA;
+    color: black;
 }
 
 .cm-s-ipython div.CodeMirror-selected {
