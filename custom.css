@@ -255,89 +255,41 @@ div.output_stderr pre {
     border-left: 1px solid #585858 !important;
 }
 
-/* Comments */
-.cm-s-ipython span.cm-comment {
-    color: #008312;
-}
+/* Syntax highlighting */
 
-.cm-s-ipython span.cm-atom {
-    color: #C74483;
-}
-/* Constant numbers */
-.cm-s-ipython span.cm-number {
-    color: #2934d4;
-}
-
+.cm-s-ipython span.cm-comment { color: #008312; } /* Comments */
+.cm-s-ipython span.cm-number { color: #2934d4; } /* Constant numbers */
+.cm-s-ipython span.cm-meta { color: #77492d; } /* @classmethod in class definitions, for instance */
 .cm-s-ipython span.cm-property,
-.cm-s-ipython span.cm-attribute {
-    color: #688A0A;
-}
+.cm-s-ipython span.cm-keyword { font-weight: normal; color: #b833a1; } /* Keyword: function definition, variable, etc. */
+.cm-s-ipython span.cm-string { color: #cf3125; } /* Constant strings */
+.cm-s-ipython span.cm-operator { color: black; font-weight: normal; }
+.cm-s-ipython span.cm-builtin { color: #3d237f; } /* Built in function or module */
+.cm-s-ipython span.cm-variable { color: #33595d; }
+.cm-s-ipython span.cm-variable-2 { color: #33595d; }
+.cm-s-ipython span.cm-variable-3 { color: #33595d; }
+.cm-s-ipython span.cm-def { color: black; } /* Name of the function in definition */
+.cm-s-ipython span.cm-error { background: #ffd0bf; color: black; } /* Code highlighted as containing error */
+.cm-s-ipython span.cm-bracket { color: black; }
+.cm-s-ipython span.cm-link { color: #1b42fb; }
+.cm-s-ipython .CodeMirror-matchingbracket { font-weight: bold; color: black !important; }
 
-/* Keyword: function definition, variable, etc. */
-.cm-s-ipython span.cm-keyword {
-    font-weight: normal;
-    color: #b833a1;
-}
+/* Syntax highlighting that is not currently overridden */
 
-/* Constant strings */
-.cm-s-ipython span.cm-string {
-    color: #cf3125;
-}
-
-.cm-s-ipython span.cm-operator {
-    color: black;
-    font-weight: normal;
-}
-
-/* Built in function or module */
-.cm-s-ipython span.cm-builtin {
-    color: #3d237f;
-}
-
-.cm-s-ipython span.cm-variable {
-    color: #33595d;
-}
-
-.cm-s-ipython span.cm-variable-2 {
-    color: #33595d;
-}
-
-.cm-s-ipython span.cm-variable-3 {
-    color: #33595d;
-}
-
-/* Name of the function in definition */
-.cm-s-ipython span.cm-def {
-    color: black;
-}
-
-/* Code highlighted as containing error */
-.cm-s-ipython span.cm-error {
-    background: #ffd0bf; 
-    color: black;
-}
-
-.cm-s-ipython span.cm-bracket {
-    color: black;
-}
-
-.cm-s-ipython span.cm-tag {
-    color: #D43132;
-}
-
-.cm-s-ipython span.cm-link {
-    color: #975DDE;
-}
-
-.cm-s-ipython span.cm-entity {
- color: #508187;
-}
-
-.cm-s-ipython span.cm-storage {
- color: #508187;
-}
-
-.cm-s-ipython .CodeMirror-matchingbracket {
-    font-weight: bold;
-    color: black !important;
-}
+/*
+.cm-s-ipython span.cm-storage { color: red; }
+.cm-s-ipython span.cm-entity { color: red; }
+.cm-s-ipython span.cm-tag { color: red; }
+.cm-s-ipython span.cm-atom { color: red; }
+.cm-s-ipython span.cm-attribute { color: #688A0A; }
+.cm-s-ipython span.cm-string-2 { color: red; }
+.cm-s-ipython span.cm-qualifier { color: red; }
+.cm-s-ipython span.cm-header { color: red; }
+.cm-s-ipython span.cm-quote { color: red; }
+.cm-s-ipython span.cm-hr { color: transparent; border-top: 1px solid red; display: block; }
+.cm-s-ipython span.cm-special { color: red; }
+.cm-s-ipython span.cm-em { color: red; text-decoration: underline; text-decoration-style: dotted; }
+.cm-s-ipython span.cm-strong { color: red; }
+.cm-s-ipython span.cm-tab:before { content: "âž¤"; color: red; position:absolute; }
+.cm-s-ipython span.cm-invalidchar { color: red; border-bottom: 1px dotted red; }
+*/
