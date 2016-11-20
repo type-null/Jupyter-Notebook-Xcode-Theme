@@ -248,7 +248,8 @@ div.output_stderr pre {
 }
 
 .cm-s-ipython .CodeMirror-linenumber {
-    color: #b8b8b8;
+    color: #9b9b9b;
+    font-size: 0.7rem;
 }
 
 .cm-s-ipython .CodeMirror-cursor {
