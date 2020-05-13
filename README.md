@@ -1,4 +1,6 @@
 ## Logs
+2020.05.13
+- change primary and secondary header font-size
 2020.05.12
 - change **bold** font-weight to 500 in markdown
 - change parenthsis highlight to bottom-border
