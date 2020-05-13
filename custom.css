@@ -1,5 +1,5 @@
 /*
-Author: Neil Panchal
+Original Author: Neil Panchal
 http://neil.engineer
 */
 
@@ -66,7 +66,7 @@ samp {
 }
 
 h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
     font-weight: 600 !important;
     color: #333 !important;
     /*letter-spacing: 3px !important;*/
@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
     font-weight: 600 !important;
     color: #333 !important;
     /*letter-spacing: 3px !important;*/
